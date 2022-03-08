@@ -1,0 +1,24 @@
+CRITICAL - 2022-02-08 19:17:39 --> Too few arguments to function App\Models\User_model::create(), 2 passed in D:\ukk 2022\app\Controllers\Auth.php on line 24 and exactly 3 expected
+#0 D:\ukk 2022\app\Controllers\Auth.php(24): App\Models\User_model::create('12343123', NULL)
+#1 D:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\Auth->register()
+#2 D:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('D:\\ukk 2022\\pub...')
+#6 {main}
+CRITICAL - 2022-02-08 19:20:10 --> Too few arguments to function App\Models\User_model::create(), 2 passed in D:\ukk 2022\app\Controllers\Auth.php on line 24 and exactly 3 expected
+#0 D:\ukk 2022\app\Controllers\Auth.php(24): App\Models\User_model::create('12343123', NULL)
+#1 D:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\Auth->register()
+#2 D:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#3 D:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('D:\\ukk 2022\\pub...')
+#6 {main}
+CRITICAL - 2022-02-08 19:33:49 --> syntax error, unexpected token "public", expecting end of file
+#0 D:\ukk 2022\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('auth/register')
+#1 D:\ukk 2022\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('auth/register')
+#2 D:\ukk 2022\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('D:\\ukk 2022\\pub...')
+#6 {main}

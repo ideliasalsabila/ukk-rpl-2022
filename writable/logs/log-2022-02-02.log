@@ -1,0 +1,59 @@
+CRITICAL - 2022-02-02 19:54:02 --> Class "App\Models\User" not found
+#0 D:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('D:\\ukk 2022\\pub...')
+#5 {main}
+CRITICAL - 2022-02-02 20:25:00 --> Class "App\Models\User" not found
+#0 D:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('D:\\ukk 2022\\pub...')
+#5 {main}
+CRITICAL - 2022-02-02 20:25:26 --> Class "App\Models\User" not found
+#0 D:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 D:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 D:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('D:\\ukk 2022\\pub...')
+#5 {main}
+CRITICAL - 2022-02-02 20:26:11 --> Class "App\Models\BaseModel" not found
+#0 D:\ukk 2022\system\Autoloader\Autoloader.php(264): include_once()
+#1 D:\ukk 2022\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\ukk 2022\\app...')
+#2 D:\ukk 2022\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#3 D:\ukk 2022\app\Controllers\Auth.php(11): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#4 D:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#5 D:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 D:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('D:\\ukk 2022\\pub...')
+#9 {main}
+CRITICAL - 2022-02-02 20:27:39 --> Trying to access array offset on value of type bool
+#0 D:\ukk 2022\app\Models\User_model.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'D:\\ukk 2022\\app...', 9)
+#1 D:\ukk 2022\app\Controllers\Auth.php(11): App\Models\User_model::authenticate('24355768909676', 'gfhtjyf')
+#2 D:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 D:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('D:\\ukk 2022\\pub...')
+#7 {main}
+CRITICAL - 2022-02-02 20:27:53 --> foreach() argument must be of type array|object, bool given
+#0 D:\ukk 2022\app\Models\User_model.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\ukk 2022\\app...', 9)
+#1 D:\ukk 2022\app\Controllers\Auth.php(11): App\Models\User_model::authenticate('24355768909676', 'gfhtjyf')
+#2 D:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 D:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('D:\\ukk 2022\\pub...')
+#7 {main}
+CRITICAL - 2022-02-02 20:29:15 --> foreach() argument must be of type array|object, bool given
+#0 D:\ukk 2022\app\Models\User_model.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'D:\\ukk 2022\\app...', 9)
+#1 D:\ukk 2022\app\Controllers\Auth.php(11): App\Models\User_model::authenticate('24355768909676', 'gfhtjyf')
+#2 D:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 D:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 D:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('D:\\ukk 2022\\pub...')
+#7 {main}

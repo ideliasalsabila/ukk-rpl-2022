@@ -1,0 +1,10 @@
+CRITICAL - 2022-02-01 21:44:46 --> Invalid file: index.php
+#0 D:\ukk 2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 D:\ukk 2022\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 D:\ukk 2022\app\Controllers\Home.php(9): view('index')
+#3 D:\ukk 2022\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 D:\ukk 2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\ukk 2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\ukk 2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\ukk 2022\system\Commands\Server\rewrite.php(43): require_once('D:\\ukk 2022\\pub...')
+#8 {main}
