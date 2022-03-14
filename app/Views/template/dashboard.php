@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Peduli Diri</title>
+    <title>Road History</title>
 
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -47,7 +47,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        <ul class="navbar-nav bg-gradient-danger sidebar sidebar-dark accordion" id="accordionSidebar">
+        <ul class="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
@@ -70,13 +70,13 @@
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url() ?>/catatanperjalanan">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Catatan Perjalanan</span></a>
+                    <span>Riwayat Perjalanan</span></a>
             </li>
             <!-- Nav Item - Tables -->
             <li class="nav-item">
                 <a class="nav-link" href="<?= base_url() ?>/isidata">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Isi Data</span></a>
+                    <span>Isi Riwayat Perjalanan</span></a>
             </li>
 
             <!-- Divider -->
@@ -97,7 +97,7 @@
             <div id="content">
 
                 <!-- Topbar -->
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+                <nav class="navbar navbar-expand navbar-light bg-dark topbar mb-4 static-top shadow">
 
                     <!-- Sidebar Toggle (Topbar) -->
                     <form class="form-inline">
@@ -121,7 +121,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= $userdata["nama"] ?><p style="font-size:0.5rem;margin:0;" ><?= $userdata["nik"] ?></p></span>
+                                    <span class="mr-2 d-none d-lg-inline text-white-600 small"><?= $userdata["nama"] ?><p style="font-size:0.5rem;margin:0;" ><?= $userdata["nik"] ?></p></span>
                                 
                                 
                                 <img class="img-profile rounded-circle"
@@ -196,7 +196,7 @@
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">Apakah anda yakin untuk keluar?.</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
                     <a class="btn btn-danger" href="<?= base_url() ?>/auth/logout">Logout</a>

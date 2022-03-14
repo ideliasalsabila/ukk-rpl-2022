@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Peduli Diri - <?=$this->renderSection("title")?></title>
+    <title>Road History - <?=$this->renderSection("title")?></title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="bg-gradient-danger">
+<body class="bg-gradient-dark">
 
     <div class="container">
 
